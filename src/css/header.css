@@ -26,7 +26,6 @@
 }
 
 .header-top {
-  /* padding-top: 40px; */
   display: flex;
   justify-content: space-between;
   z-index: 2;
