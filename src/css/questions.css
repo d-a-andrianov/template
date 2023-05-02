@@ -1,0 +1,88 @@
+/* стилизация четного значка плюс при наведении */
+.questions__item:hover:nth-child(even):after {
+  content: '';
+  background-image: url(../img/seventh-section/open_hover.png);
+}
+
+/* стилизация четного значка плюс актив */
+.questions__item:active:nth-child(even):after {
+  content: '';
+  background-image: url(../img/seventh-section/open_active.svg);
+}
+
+/* стилизация нечетного значка плюс при наведении */
+.questions__item:hover:nth-child(odd):after {
+  content: '';
+  background-image: url(../img/seventh-section/open-purple_hover.png);
+}
+
+/* стилизация нечетного значка плюс актив */
+.questions__item:active:hover:nth-child(odd):after {
+  content: '';
+  background-image: url(../img/seventh-section/open-purple_active.png);
+}
+
+.questions__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.questions__list {
+  padding-left: 0;
+}
+
+.questions__item {
+  background-color: var(--white-color);
+  color: var(--graphite-black-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 46px;
+  padding: 20px 70px;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.questions__item:last-child {
+  margin-bottom: 0px;
+}
+
+.questions__item:nth-child(2n) {
+  background-color: var(--deep-purple-color);
+  color: var(--white-color);
+}
+
+.questions__item:after {
+  float: right;
+  content: '';
+  width: 46px;
+  height: 46px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+/* добавление четного значка плюс в конце элемента */
+.questions__item:nth-child(even):after {
+  content: '';
+  background-image: url(../img/seventh-section/open.svg);
+    /* анимация значка плюс */
+  transition-duration: 0.35s;
+  transition-property: background-image;
+  transition-delay: 0.1s;
+
+}
+
+/* добавление нечетного значка плюс в конце элемента */
+.questions__item:nth-child(odd):after {
+  content: '';
+  background-image: url(../img/seventh-section/open-purple.svg);
+  /* анимация значка плюс */
+  transition-duration: 0.35s;
+  transition-property: background-image;
+  transition-delay: 0.1s;
+}
