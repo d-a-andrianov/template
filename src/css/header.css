@@ -140,6 +140,11 @@ transition-delay: 0.1s; */
     margin-bottom: 70px;
   }
 
+  .header-top__logo {
+    width: 60px;
+    height: 60px;
+  }
+
   .header-top__text-top {
     font-size: 21px;
     line-height: 25px;
