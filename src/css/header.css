@@ -10,6 +10,7 @@
   z-index: 0;
 }
 
+/* добавляем эффект поверх бэкграунда */
 .header::before {
   content: '';
   position: absolute;
@@ -22,7 +23,6 @@
   background-color: rgba(47, 50, 75, 0.85);
   z-index: 1;
   overflow: auto;
-
 }
 
 .header-top {
@@ -37,10 +37,11 @@
 }
 
 .header-top__text {
-  display: flex;
+  text-align: center;
+  /* display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   min-width: 208px;
   max-height: 53px;
   z-index: 2;
@@ -51,6 +52,7 @@
   font-size: 23.85px;
   line-height: 27.95px;
   line-height: 100%;
+  margin-bottom: 20px;
   z-index: 2;
 }
 
@@ -86,6 +88,7 @@
   font-size: 22px;
   line-height: 31px;
   text-align: center;
+  color: var(--dark-grey-color);
   margin-bottom: 90px;
   max-height: 89px;
 }
@@ -104,7 +107,11 @@
   border-radius: 50px;
   background-color: var(--dark-blue-color);
   box-shadow: 0px 0px 25px 4px rgba(21, 169, 203, 0.3);
-  border: none;  
+  border: none;
+  /* анимация кнопки */
+  /* transition-duration: 0.35s, 0.35s, 0.35s, 0.35s, 1ms;
+  transition-property: background-color, color, box-shadow, outline-offset, outline;
+  transition-delay: 0.1s; */
 }
 
 
