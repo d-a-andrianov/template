@@ -128,6 +128,7 @@ border: none; */
 transition-property: background-color, color, outline-offset, outline;
 transition-delay: 0.1s; */ 
 
+/* медиазапросы */
 
 @media (max-width: 1024px) {
 
