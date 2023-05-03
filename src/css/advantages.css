@@ -17,14 +17,33 @@
   margin-bottom: 25px;
 }
 
+.advantages__about {
+  display: flex;
+  justify-content: center;
+}
+
+.advantages__line {
+  margin: 0;
+  /* display: inline-block; */
+  width: 40px;
+  height: 2px;
+  align-items: center;
+  background-color: var(--heavy-grey-color);
+}
+
+.advantages__line:not(:last-child) {
+  margin-right: 20px;
+}
+
 .advantages__subtitle {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   text-align: center;
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
   color: var(--heavy-grey-color);
-  margin-bottom: 35px;
+  margin: 0 22px 35px 0;
+  /* margin-bottom: 35px; */
 }
 
 .advantages__text {
