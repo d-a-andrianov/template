@@ -47,8 +47,13 @@
   z-index: 2;
 }
 
-.header-top__phone-adaptive {
+.header-top__phone-button {
   display: none;
+  min-width: 24px;
+  min-height: 24px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--black-grey-color);
 }
 
 .header-top__text-top {
@@ -182,10 +187,15 @@
     display: none;
   }
 
-  .header-top__phone-adaptive {
+  .header-top__phone-button {
     display: block;
-    min-width: 30px;
-    min-height: 30px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .header-top__phone-adaptive {
+    width: 24px;
+    height: 24px;
     z-index: 2;
   }
 
