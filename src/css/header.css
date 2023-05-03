@@ -1,6 +1,6 @@
 .header {
   margin: 0 auto;
-  background: url('../img/header/stag-office-mockup_1.jpg');
+  background: url('../img/header/stag-office-mockup.jpg');
   max-width: 100%;
   min-height: 732px;
   background-repeat: no-repeat;
@@ -45,7 +45,10 @@
   min-width: 208px;
   max-height: 53px;
   z-index: 2;
+}
 
+.header-top__phone-adaptive {
+  display: none;
 }
 
 .header-top__text-top {
@@ -108,25 +111,7 @@
   background-color: var(--dark-blue-color);
   box-shadow: 0px 0px 25px 4px rgba(21, 169, 203, 0.3);
   border: none;
-  /* анимация кнопки */
-  /* transition-duration: 0.35s, 0.35s, 0.35s, 0.35s, 1ms;
-  transition-property: background-color, color, box-shadow, outline-offset, outline;
-  transition-delay: 0.1s; */
 }
-
-
-/* font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-height: 48px;
-width: 200px;
-border-radius: 50px;
-color: var(--dark-purple-color);
-border: none; */
-/* анимация кнопки */
-/* transition-duration: 0.35s, 0.35s, 0.35s, 1ms;
-transition-property: background-color, color, outline-offset, outline;
-transition-delay: 0.1s; */ 
 
 /* медиазапросы */
 
@@ -170,5 +155,63 @@ transition-delay: 0.1s; */
   .header-button {
     margin-bottom: 70px;
   }
+
+}
+
+@media (max-width: 460px) {
+
+  .header {
+    min-height: 441px;
+  }
+  
+  .header-top {
+    margin-bottom: 65px;
+    max-height: 30px;
+  }
+
+  .header-top__logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header-top__text-top {
+    display: none;
+  }
+
+  .header-top__text-bottom {
+    display: none;
+  }
+
+  .header-top__phone-adaptive {
+    display: block;
+    min-width: 30px;
+    min-height: 30px;
+    z-index: 2;
+  }
+
+  .header-top__text {
+    min-width: 0;
+    margin-bottom: 65px;
+  }
+
+  .header-content__title {
+    font-size: 20px;
+    line-height: 23.44px;
+    margin-bottom: 23px;
+  }  
+
+  .header-content__text {
+    font-size: 14px;
+    line-height: 19.69px;
+    margin-bottom: 54px;
+  }
+
+  
+ /*
+
+
+  .header-button {
+    margin-bottom: 70px;
+  } */
 
 }

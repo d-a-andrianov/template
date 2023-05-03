@@ -31,6 +31,7 @@
   background-color: var(--heavy-grey-color);
   text-align: center;
   margin-top: 13px;
+  /* по-другому не смог сделать */
 }
 
 .advantages__about-line:not(:last-child) {
