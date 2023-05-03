@@ -59,20 +59,28 @@
   margin-bottom: 50px;
 }
 
+
+/* кружки с цифрами */
 .advantages__list-top {
   /* margin: 0 auto; */
   display: flex;
   justify-content: center;
-  gap: 119px;  
+  gap: 45px;
 }
 
-/* кружки с цифрами */
+.advantages__item-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 196px;
+  min-height: 195px;
+  gap: 16px;
+}
+
+
 .advantages__item-top {
-  /* margin: 0 auto; */
-  min-width: 122px;
-  min-height: 122px;
-  /* text-align: center;
-  vertical-align: text-top; */
+  margin: 0 auto;
+  width: 122px;
+  height: 122px;
   padding: 32px 44px;
   font-weight: 500;
   font-size: 57px;
@@ -80,7 +88,6 @@
   color: var(--white-color);
   background-color: var(--light-blue-color);
   border-radius: 50%;
-  margin-bottom: 16px;
 }
 
 .advantages__list-bottom {
@@ -131,14 +138,18 @@
     line-height: 22.5px;
   }
 
+  .advantages__item-wrapper {
+    gap: 26px;
+  }
+
   .advantages__item-top {
     width: 104px;
     height: 104px;
-    padding: 22px 31px;
+    padding: 15px 30px;
     font-size: 52px;
     line-height: 73.13px;
     text-align: center;
-    margin-bottom: 26px;    
+    /* margin-bottom: 26px;     */
   }
   
   .advantages__list-top {
