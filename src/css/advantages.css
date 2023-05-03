@@ -20,33 +20,45 @@
 .advantages__about {
   display: flex;
   justify-content: center;
+  margin: 0 22px 35px 0;
+  position: relative;
 }
 
-.advantages__about-line {
-  margin: 0;
-  /* display: inline-block; */
+.advantages__about-subtitle::before {
+  content: '';
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 503px;
   width: 40px;
   height: 2px;
   align-items: center;
   background-color: var(--heavy-grey-color);
   text-align: center;
-  margin-top: 13px;
-  /* по-другому не смог сделать */
 }
 
-.advantages__about-line:not(:last-child) {
-  margin-right: 20px;
+.advantages__about-subtitle::after {
+  content: '';
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 636px;
+  width: 40px;
+  height: 2px;
+  align-items: center;
+  background-color: var(--heavy-grey-color);
+  text-align: center;
 }
 
 .advantages__about-subtitle {
   /* margin: 0 auto; */
   text-align: center;
   font-weight: 500;
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 25px;
   color: var(--heavy-grey-color);
-  margin: 0 22px 35px 0;
-  /* margin-bottom: 35px; */
 }
 
 .advantages__text {
@@ -78,10 +90,12 @@
 
 
 .advantages__item-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
   width: 122px;
   height: 122px;
-  padding: 32px 44px;
   font-weight: 500;
   font-size: 57px;
   line-height: 57px;
@@ -121,21 +135,21 @@
   .advantages__title {
     font-weight: bold;
     font-size: 32px;
-    line-height: 37.5px;
+    line-height: 38px;
     margin-bottom: 23px;
   }
 
   .advantages__about-subtitle {
     font-weight: 500;
     font-size: 20px;
-    line-height: 23.44px;
+    line-height: 23px;
     margin-bottom: 33px;
   }
 
   .advantages__text {
     max-width: 666px;
     font-size: 16px;
-    line-height: 22.5px;
+    line-height: 23px;
   }
 
   .advantages__item-wrapper {
@@ -145,9 +159,8 @@
   .advantages__item-top {
     width: 104px;
     height: 104px;
-    padding: 15px 30px;
     font-size: 52px;
-    line-height: 73.13px;
+    line-height: 73px;
     text-align: center;
     /* margin-bottom: 26px;     */
   }
@@ -167,7 +180,7 @@
     width: 180px;
     height: 52px;
     font-size: 18px;
-    line-height: 25.31px;
+    line-height: 25px;
   }
 
 
