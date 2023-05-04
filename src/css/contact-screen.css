@@ -168,6 +168,11 @@
     line-height: 19.92px;
   }
 
+  .contact-screen__text-link {
+    font-size: 17px;
+    line-height: 19.92px;
+  }
+
 }
 
 @media (max-width: 460px) {
@@ -207,7 +212,16 @@
     line-height: 18.75px;
   }
 
+  .contact-screen-button::first-letter {
+    text-transform: uppercase;
+  }
+
   .contact-screen__text-bottom {
+    font-size: 11px;
+    line-height: 12.89px;
+  }
+
+  .contact-screen__text-link {
     font-size: 11px;
     line-height: 12.89px;
   }
