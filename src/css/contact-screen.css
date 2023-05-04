@@ -56,10 +56,19 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  border: none;
   margin-bottom: 50px;
 }
 
-.contact-screen__input{
+.contact-screen__fieldset:only-child {
+  margin-bottom: 21px;
+}
+
+
+.contact-screen__input {
+  max-width: 423px;
+  min-height: 44px;
+  border-radius: 50px;
   background: transparent;
 }
 
