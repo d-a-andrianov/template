@@ -125,7 +125,7 @@
 @media (max-width: 1024px) {
 
   .header {
-    min-height: 528px;
+    min-height: 600px;
   }
   
   .header-top {
@@ -159,10 +159,9 @@
     margin-bottom: 60px;
   }
 
-  .header-button {
-    margin-bottom: 70px;
-  }
-
+  /* .header-button {
+    margin-bottom: 65px;
+  } */
 }
 
 @media (max-width: 460px) {
@@ -219,7 +218,7 @@
   }
 
   .header-button {
-    margin-bottom: 65px;
+    /* margin-bottom: 65px; */
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;

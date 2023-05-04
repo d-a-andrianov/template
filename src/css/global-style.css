@@ -99,6 +99,13 @@ html {
     }
   }
 
+  @media (max-width: 540px) {
+
+    header {
+      padding-bottom: 65px;
+    }
+    }
+
   @media (max-width: 460px) {
 
     header {
