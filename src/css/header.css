@@ -38,22 +38,24 @@
 
 .header-top__text {
   text-align: center;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; */
   min-width: 208px;
   max-height: 53px;
   z-index: 2;
 }
 
-.header-top__phone-button {
+.header-top__link {
   display: none;
-  min-width: 24px;
-  min-height: 24px;
-  border: none;
+  text-decoration: none;
+  /* min-width: 24px;
+  min-height: 24px; */
+  /* border: none;
   border-radius: 50%;
-  background-color: var(--black-grey-color);
+  background-color: var(--black-grey-color); */
+  /* font-size: 16px;
+  line-height: 19px;
+  line-height: 100%;
+  z-index: 2;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.5); */
 }
 
 .header-top__text-top {
@@ -62,18 +64,6 @@
   line-height: 100%;
   margin-bottom: 20px;
   z-index: 2;
-}
-
-.header-top__text-bottom {
-
-}
-
-.header-top__link {
-  font-size: 16px;
-  line-height: 19px;
-  line-height: 100%;
-  z-index: 2;
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
 }
 
 .header-content {
@@ -142,8 +132,8 @@
   }
 
   .header-top__link {
-    font-size: 13px;
-    line-height: 15px;
+    /* font-size: 13px;
+    line-height: 15px; */
   }
 
   .header-content__title {
@@ -188,10 +178,10 @@
     display: none;
   }
 
-  .header-top__phone-button {
+  .header-top__link {
     display: block;
-    width: 24px;
-    height: 24px;
+    /* width: 24px;
+    height: 24px; */
   }
 
   .header-top__phone-adaptive {
