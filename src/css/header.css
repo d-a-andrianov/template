@@ -54,6 +54,7 @@
   border: none;
   border-radius: 50%;
   background-color: var(--black-grey-color);
+  z-index: 2;
 }
 
 .header-top__text-top {
