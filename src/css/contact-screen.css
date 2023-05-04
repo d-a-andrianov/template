@@ -1,0 +1,78 @@
+.contact-screen {
+  margin: 0 auto;
+  background: url('../img/second-section/original.jpg');
+  max-width: 100%;
+  min-height: 631px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 70px;
+  z-index: 0;
+}
+
+/* добавляем эффект поверх бэкграунда */
+.contact-screen::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* background-size: contain; */
+  background-color: rgba(47, 50, 75, 0.85);
+  z-index: 0;
+  overflow: auto;
+}
+
+
+
+.contact-screen__title {
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41.02px;
+  text-align: center;
+  color: var(--white-color);
+  margin-bottom: 17px;
+}
+
+.contact-screen__text {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.78px;
+  color: var(--light-grey-color);
+  margin-bottom: 50px;
+}
+
+.contact-screen__form {
+  margin: 0 auto;
+}
+
+.contact-screen__fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.contact-screen__input{
+  background: transparent;
+}
+
+.contact-screen__text-wrapper-bottom {
+  /* position: relative;
+  z-index: 2; */
+  margin: 0 auto;
+}
+
+.contact-screen-button {
+
+}
+
+.contact-screen__text-bottom{
+
+}

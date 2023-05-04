@@ -7,7 +7,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  z-index: 0;
+
 }
 
 /* добавляем эффект поверх бэкграунда */
@@ -21,19 +21,17 @@
   height: 100%;
   /* background-size: contain; */
   background-color: rgba(47, 50, 75, 0.85);
-  z-index: 1;
+  z-index: 0;
   overflow: auto;
 }
 
 .header-top {
   display: flex;
   justify-content: space-between;
-  z-index: 2;
   margin-bottom: 120px;
 }
 
 .header-top__logo {
-  z-index: 2;
 }
 
 .header-top__text {
@@ -44,7 +42,6 @@
   align-items: center; */
   min-width: 208px;
   max-height: 53px;
-  z-index: 2;
 }
 
 .header-top__phone-button {
@@ -54,7 +51,6 @@
   border: none;
   border-radius: 50%;
   background-color: var(--black-grey-color);
-  z-index: 2;
 }
 
 .header-top__text-top {
@@ -62,7 +58,6 @@
   line-height: 28px;
   line-height: 100%;
   margin-bottom: 20px;
-  z-index: 2;
 }
 
 .header-top__text-bottom {
@@ -78,8 +73,7 @@
 }
 
 .header-content {
-  position: relative;
-  z-index: 2;
+
 }
 
 .header-content__title {
@@ -159,9 +153,6 @@
     margin-bottom: 60px;
   }
 
-  /* .header-button {
-    margin-bottom: 65px;
-  } */
 }
 
 @media (max-width: 460px) {
@@ -218,7 +209,6 @@
   }
 
   .header-button {
-    /* margin-bottom: 65px; */
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;

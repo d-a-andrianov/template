@@ -84,33 +84,33 @@
           </div>
 
           <div class="advantages__item-wrapper">
-          <div class="advantages__item-top">
-            2
-          </div>
-          <div class="advantages__item-bottom">
-            Второе целевое преимущество
-          </div>
-        </div>
-
-        <div class="advantages__item-wrapper">
-          <div class="advantages__item-top">
-            3
+            <div class="advantages__item-top">
+              2
+            </div>
+            <div class="advantages__item-bottom">
+              Второе целевое преимущество
+            </div>
           </div>
 
-          <div class="advantages__item-bottom">
-            Третье целевое преимущество
-          </div>
-        </div>
+          <div class="advantages__item-wrapper">
+            <div class="advantages__item-top">
+              3
+            </div>
 
-        <div class="advantages__item-wrapper">
-          <div class="advantages__item-top">
-            4
+            <div class="advantages__item-bottom">
+              Третье целевое преимущество
+            </div>
           </div>
 
-          <div class="advantages__item-bottom">
-            Четвертое целевое преимущество
+          <div class="advantages__item-wrapper">
+            <div class="advantages__item-top">
+              4
+            </div>
+
+            <div class="advantages__item-bottom">
+              Четвертое целевое преимущество
+            </div>
           </div>
-        </div>
 
         </div>
 
@@ -120,6 +120,39 @@
 
     <!-- Вторая секция -->
     <section id="second-section" class="contact-screen">
+      <div class="container">
+ 
+        <h2 class="contact-screen__title">Остались вопросы?</h2>
+        <div class="contact-screen__text">
+          Оставьте номер телефона, и мы перезвоним вам
+        </div>
+
+
+
+        <!-- форма -->
+        <form class="contact-screen__form" id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="post"></form>
+        <!-- ряд инпутов -->
+
+        <fieldset class="contact-screen__fieldset">
+
+          <input class="contact-screen__input" type="name" name="name" placeholder="Ваше имя" required>
+
+          <input class="contact-screen__input" type="tel" name="tel" placeholder="телефон" required>
+
+          <input class="contact-screen__input" type="email" name="email"
+          placeholder="E-mail" required>
+      </fieldset>
+
+      <div class="contact-screen__text-wrapper-bottom">
+
+      
+        <button class="contact-screen-button" form="my-form" id="callme" name=" callme" type="submit">позвоните мне</button>
+        <div class="contact-screen__text-bottom">
+          Я даю своё согласие на обработку моих персональных данных.
+        </div>
+      </div>
+
+      </div>
 
     </section>
 
