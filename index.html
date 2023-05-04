@@ -123,11 +123,6 @@
       <div class="container">
  
         <h2 class="contact-screen__title">Остались вопросы?</h2>
-        <div class="contact-screen__text">
-          Оставьте номер телефона, и мы перезвоним вам
-        </div>
-
-
 
         <!-- форма -->
         <form class="contact-screen__form" id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="post">
@@ -135,12 +130,17 @@
 
         <fieldset class="contact-screen__fieldset">
 
+          <legend class="contact-screen__legend">Оставьте номер телефона, и мы перезвоним вам</legend>
+
+          <div class="contact-screen__fieldset-wrapper">
           <input class="contact-screen__input" type="name" name="name" placeholder="Ваше имя" required>
 
           <input class="contact-screen__input" type="tel" name="tel" placeholder="телефон" required>
 
           <input class="contact-screen__input" type="email" name="email"
           placeholder="E-mail" required>
+          </div>
+
       </fieldset>
     </form>
 
@@ -149,7 +149,7 @@
       
         <button class="contact-screen-button" form="my-form" id="callme" name=" callme" type="submit">позвоните мне</button>
         <div class="contact-screen__text-bottom">
-          Я даю своё согласие на обработку моих персональных данных.
+          Я даю своё <a class="contact-screen__text-link" href="#">согласие</a> на обработку моих персональных данных.
         </div>
       </div>
 
