@@ -1,11 +1,11 @@
 .contact-screen-button:active {
   background: var(--blue-grey-color);
-  box-shadow: 0 0 10px 10px var( --blue-dark-color);  
+  box-shadow: 0 0 10px 10px var(--blue-dark-color);
 }
 
 .contact-screen-button:hover {
   background: var(--blue-grey-color);
-  box-shadow: 0 0 10px 10px var( --blue-dark-color);  
+  box-shadow: 0 0 10px 10px var(--blue-dark-color);
 }
 
 .contact-screen {
@@ -55,7 +55,7 @@
 
 .contact-screen__fieldset {
   margin: 0 auto;
-  border: none;  
+  border: none;
 }
 
 .contact-screen__fieldset-wrapper {
@@ -66,7 +66,7 @@
   justify-content: space-between;
   max-width: 423px;
   min-height: 174px;
-  
+
 }
 
 .contact-screen__legend {
@@ -120,6 +120,7 @@
   line-height: 23.44px;
   color: var(--white-color);
 }
+
 .contact-screen__text-link {
   font-size: 20px;
   line-height: 23.44px;
@@ -145,24 +146,70 @@
     line-height: 23.44px;
   }
 
-  .contact-screen__input {
-    font-size: 20px;
-    line-height: 23.44px;
-  }
-
   .contact-screen__fieldset-wrapper {
     max-width: 379px;
     min-height: 157px;
   }
 
+  .contact-screen__input {
+    font-size: 20px;
+    line-height: 23.44px;
+    padding: 8px 0 8px 23px;
+    min-height: 39px;
+  }
+
   .contact-screen-button {
     line-height: 23.44px;
     margin-bottom: 30px;
+  }
+
+  .contact-screen__text-bottom {
+    font-size: 17px;
+    line-height: 19.92px;
+  }
+
 }
 
-.contact-screen__text-bottom {
-  font-size: 17px;
-  line-height: 19.92px;
-}
+@media (max-width: 460px) {
+
+  .contact-screen {
+    min-height: 398px;
+    padding-bottom: 30px 0;
+  }
+
+  .contact-screen__title {
+    font-size: 20px;
+    line-height: 23.44px;
+    margin-bottom: 10px;
+  }
+
+  .contact-screen__legend {
+    font-size: 12px;
+    line-height: 14.06px;
+    margin-bottom: 35px;
+  }
+
+  .contact-screen__fieldset-wrapper {
+    max-width: 290px;
+    min-height: 114px;
+    margin-bottom: 45px;
+  }
+
+  .contact-screen__input {
+    font-size: 14px;
+    line-height: 16.41px;
+    padding: 6px 0 6px 18px;
+    min-height: 28px;
+  }
+
+  .contact-screen-button {
+    font-size: 16px;
+    line-height: 18.75px;
+  }
+
+  .contact-screen__text-bottom {
+    font-size: 11px;
+    line-height: 12.89px;
+  }
 
 }
