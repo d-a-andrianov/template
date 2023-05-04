@@ -100,8 +100,6 @@
 .header-button {
   margin: 0 auto;
   display: block;
-  position: relative;
-  z-index: 2;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
