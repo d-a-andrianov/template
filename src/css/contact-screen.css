@@ -50,14 +50,16 @@
 
 .contact-screen__form {
   margin: 0 auto;
+  max-width: 423px;
+  min-height: 174px;
+  margin-bottom: 50px;
 }
 
 .contact-screen__fieldset {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  border: none;
-  margin-bottom: 50px;
+  border: none;  
 }
 
 .contact-screen__fieldset:only-child {
