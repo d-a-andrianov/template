@@ -1,3 +1,13 @@
+.contact-screen-button:active {
+  background: var(--blue-grey-color);
+  box-shadow: 0 0 10px 10px var( --blue-dark-color);  
+}
+
+.contact-screen-button:hover {
+  background: var(--blue-grey-color);
+  box-shadow: 0 0 10px 10px var( --blue-dark-color);  
+}
+
 .contact-screen {
   margin: 0 auto;
   background: url('../img/second-section/original.jpg');
@@ -62,7 +72,7 @@
 .contact-screen__legend {
   margin: 0 auto;
   text-align: center;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 22px;
   line-height: 25.78px;
   color: var(--light-grey-color);
@@ -77,6 +87,8 @@
   background: transparent;
   padding: 9px 0 9px 25px;
   color: var(--night-grey-color);
+  font-size: 22px;
+  line-height: 25.78px;
 }
 
 .contact-screen__text-wrapper-bottom {
@@ -113,4 +125,44 @@
   line-height: 23.44px;
   color: var(--blue-grey-color);
   border-bottom: 1px solid var(--blue-grey-color);
+}
+
+@media (max-width: 1024px) {
+
+  .contact-screen {
+    min-height: 558px;
+    padding-bottom: 56px;
+  }
+
+  .contact-screen__title {
+    font-size: 32px;
+    line-height: 37.5px;
+    margin-bottom: 16px;
+  }
+
+  .contact-screen__legend {
+    font-size: 20px;
+    line-height: 23.44px;
+  }
+
+  .contact-screen__input {
+    font-size: 20px;
+    line-height: 23.44px;
+  }
+
+  .contact-screen__fieldset-wrapper {
+    max-width: 379px;
+    min-height: 157px;
+  }
+
+  .contact-screen-button {
+    line-height: 23.44px;
+    margin-bottom: 30px;
+}
+
+.contact-screen__text-bottom {
+  font-size: 17px;
+  line-height: 19.92px;
+}
+
 }

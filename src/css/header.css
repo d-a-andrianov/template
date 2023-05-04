@@ -1,3 +1,13 @@
+.header-button:active {
+  background: var(--blue-grey-color);
+  box-shadow: 0 0 10px 10px var( --blue-dark-color);  
+}
+
+.header-button:hover {
+  background: var(--blue-grey-color);
+  box-shadow: 0 0 10px 10px var( --blue-dark-color);  
+}
+
 .header {
   margin: 0 auto;
   background: url('../img/header/stag-office-mockup.jpg');
