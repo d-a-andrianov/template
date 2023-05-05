@@ -28,14 +28,14 @@
 
 .footer-left__text {
   min-width: 127px;
-  font-style: medium;
+  font-weight: 500;
   font-size: 12px;
   line-height: 16.88px;
 }
 
 .footer__center {
   text-align: center;
-  font-style: medium;
+  font-weight: 500;
   font-size: 12px;
   line-height: 16.88px;
 }
@@ -49,7 +49,6 @@
 .footer-right__link {
   font-size: 16px;
   line-height: 19px;
-  line-height: 100%;
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
   text-align: center;
 }
@@ -57,7 +56,6 @@
 .footer-right__text-top {
   font-size: 23.85px;
   line-height: 28px;
-  line-height: 100%;
   margin-bottom: 20px;
 }
 
@@ -74,3 +72,25 @@
   display: none;
 }
 
+@media (max-width: 1024px) {
+
+  .footer {
+    min-height: 146px;
+    padding: 49px 0;
+  }
+
+  .footer__center {
+    color: var(--grey-color);
+  }
+
+  .footer-right__text-top {
+    font-size: 21px;
+    line-height: 24.61px;
+  }
+
+  .footer-right__link {
+    font-size: 13px;
+    line-height: 15.23px;
+  }
+
+}

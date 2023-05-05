@@ -1,6 +1,7 @@
 :root {
   --background-color: #1B1A1B;
   --white-color: #ffffff;
+  --white-grey-color: #F9F9F9;
   --dark-blue-color: #15A9CB;
   --light-grey-color: rgba(255, 255, 255, 0.86);
   --dark-grey-color: rgba(255, 255, 255, 0.75);
@@ -11,4 +12,5 @@
   --blue-grey-color: #4A76A8;
   --blue-dark-color: rgba(21, 169, 203, 0.3);
   --blue-heavy-color: #2F324B;
+  --grey-color: #9798A5;
 }
