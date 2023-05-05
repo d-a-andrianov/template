@@ -77,7 +77,6 @@
 .header-top__link {
   font-size: 16px;
   line-height: 19px;
-  line-height: 100%;
   z-index: 2;
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
 }
@@ -221,5 +220,4 @@
     font-size: 16px;
     line-height: 19px;
 }
-
 }

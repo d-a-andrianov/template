@@ -10,34 +10,55 @@
 .footer__wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-basis: 200px;
+  /* gap: 302px; */
 }
 
 .footer-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
 .footer-left__logo {
-
+  margin-right: 19px;
 }
 
 .footer-left__text {
-
+  min-width: 127px;
+  font-style: medium;
+  font-size: 12px;
+  line-height: 16.88px;
 }
 
 .footer__center {
-
+  text-align: center;
+  font-style: medium;
+  font-size: 12px;
+  line-height: 16.88px;
 }
 
 .footer-right {
-
+  text-align: center;
+  min-width: 208px;
+  max-height: 53px;
 }
 
 .footer-right__link {
-
+  font-size: 16px;
+  line-height: 19px;
+  line-height: 100%;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
 }
 
 .footer-right__text-top {
-
+  font-size: 23.85px;
+  line-height: 28px;
+  line-height: 100%;
+  margin-bottom: 20px;
 }
 
 .footer-right__text-bottom {
