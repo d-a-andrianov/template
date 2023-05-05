@@ -194,6 +194,7 @@
 
   .advantages__list-top {
     align-items: center;
+    /* формула для переноса карточек с кружочками */
     flex-basis: 100% / var(--cart-count) - (var(--gap) * (var(--cart-count) - 1)) / var(--cart-count);
   }
 }
