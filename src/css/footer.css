@@ -56,7 +56,7 @@
 .footer-right__text-top {
   font-size: 23.85px;
   line-height: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 3px;
 }
 
 .footer-right__text-bottom {
@@ -102,6 +102,7 @@
   .footer-right__text-top {
     font-size: 21px;
     line-height: 24.61px;
+    margin-bottom: 4px;
   }
 
   .footer-right__link {
@@ -110,7 +111,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
 
   .footer {
     min-height: 127px;
@@ -153,6 +154,7 @@
   .footer-right {
     display: flex;
     justify-content: flex-end;
+    min-width: 24px;
     
   }
 

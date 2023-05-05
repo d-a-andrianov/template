@@ -81,6 +81,7 @@
   /* margin: 0 auto; */
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 45px;
 }
 
@@ -192,7 +193,7 @@
 @media (max-width: 725px) {
 
   .advantages__list-top {
-    flex-direction: column;
     align-items: center;
+    flex-basis: 100% / var(--cart-count) - (var(--gap) * (var(--cart-count) - 1)) / var(--cart-count);
   }
 }
