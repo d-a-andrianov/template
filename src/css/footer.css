@@ -1,166 +1,55 @@
-footer {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background: linear-gradient(#1B1A1B, #370A37);
+.footer {
+  margin: 0 auto;
+  background-color: var(--blue-heavy-color);
+  max-width: 100%;
+  min-height: 158px;
+  padding: 45px 0;
+  /* z-index: 0; */
 }
 
-/* Анимации иконок соц сетей */
-.footer__social-link:hover {
-  display: block;
-  color: var(--white-purple-color);
-}
-
-/* Анимации иконок соц сетей */
-.footer__social-link:focus {
-  display: block;
-  outline-color: var(--light-purple-color);
-  color: var(--white-purple-color);
-}
-
-/* Анимации иконок соц сетей */
-.footer__social-link:active {
-  display: block;
-  color: var(--light-purple-color);
-}
-
-/* иконки соц сетей */
-.footer__social-link {
-  display: block;
-  color: var(--white-color);
-  outline: 1px solid transparent;
-  outline-offset: 3px;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  /* анимация иконок */
-  transition-duration: 0.35s;
-  transition-property: color, outline-color;
-  transition-delay: 0.1s;
-}
-
-.footer__title {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
-  text-align: center; 
-  text-transform: uppercase;
-  margin-bottom: 40px;
-}
-
-.footer__contacts {
+.footer__wrapper {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 156px;
 }
 
-.footer__adress {
-  display: flex;
-  flex-direction: column;
+.footer-left {
+
 }
 
-.footer__adress-top {
-  padding-left: 65px;
-  margin-bottom: 35px;
+.footer-left__logo {
+
 }
 
-.footer__text:not(:last-child) {
-  margin-bottom: 14px;
+.footer-left__text {
+
 }
 
-.footer__text:first-child {
-  margin-bottom: 39px;
+.footer__center {
+
 }
 
-.footer__link-adress {
-  position: relative;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  font-style: normal;
-  color: var(--white-color);
-  text-decoration: none;
-  white-space: pre-line;
-  margin-bottom: 39px;
+.footer-right {
+
 }
 
-.footer__link-adress::before {
-  content: '';
-  background-image: url(../img/contacts/location.svg);
-  background-repeat: no-repeat;
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  left: -65px;
-  bottom: 0px;
+.footer-right__link {
+
 }
 
-.footer__link-phone {
-  position: relative;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  font-style: normal;
-  color: var(--white-color);
-  text-decoration: none;
+.footer-right__text-top {
+
 }
 
-.footer__link-phone::before {
-  content: '';
-  background-image: url(../img/contacts/bx_bxs-phone-call.svg);
-  background-repeat: no-repeat;
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  left: -65px;
-  bottom: -20px;
+.footer-right__text-bottom {
+
 }
 
-.footer__link-mail {
-  position: relative;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  font-style: normal;
-  color: var(--white-color);
-  text-decoration: none;
+
+.footer__phone-adaptive {
+
 }
 
-.footer__link-mail::before {
-  content: '';
-  background-image: url(../img/contacts/envelope_mail.svg);
-  background-repeat: no-repeat;
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  left: -65px;
-  bottom: -20px;
+.footer__phone-button {
+  display: none;
 }
 
-.footer__social {
-  display: flex;
-  vertical-align: bottom;
-  width: 289px;
-  height: 49px;
-  list-style: none;
-}
-
-.footer__item:not(:last-child) {
-  margin-right: 25px;
-}
-
-.footer__author {
-  display: flex;
-  justify-content: space-between;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-}
-
-.footer__author-right {
-  text-align: right;
-}
-
-.test {
-  counter-reset: count 0;
-}
