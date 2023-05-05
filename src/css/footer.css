@@ -63,13 +63,29 @@
 
 }
 
+/* кнопка появляется в моб версии */
+.footer__phone-button {
+  display: none;
+  min-width: 24px;
+  min-height: 24px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--black-grey-color);
+}
 
 .footer__phone-adaptive {
 
 }
 
-.footer__phone-button {
+.footer__author-adaptiv {
+  margin: 0 auto;
+  text-align: center;
   display: none;
+  min-height: 47px;
+  background-color: var(--light-black-color);
+  font-size: 12px;
+  line-height: 16.88px;
+  color: var(--grey-color);
 }
 
 @media (max-width: 1024px) {
@@ -92,5 +108,65 @@
     font-size: 13px;
     line-height: 15.23px;
   }
+}
+
+@media (max-width: 600px) {
+
+  .footer {
+    min-height: 127px;
+    padding: 25px 0 0 0;
+  }
+
+  .footer__wrapper {
+    margin-bottom: 25px;
+  }
+
+  .footer-left__logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 19px;
+  }
+
+  .footer-left__text {
+    font-size: 8px;
+    line-height: 11.25px;
+  }
+
+  .footer__center {
+    display: none;
+  }
+
+  .footer__author-adaptiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-right__text-top {
+    display: none;
+  }
+
+  .footer-right__text-bottom {
+    display: none;
+  }
+
+  .footer-right {
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+
+  .footer__phone-button {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer__phone-adaptive {
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+  }
 
 }
+
