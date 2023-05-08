@@ -104,6 +104,10 @@
   max-height: 89px;
 }
 
+.header-content__text-320px {
+  display: none;
+}
+
 .header-button {
   margin: 0 auto;
   display: block;
@@ -227,22 +231,33 @@
 
   .header-content {
     margin-bottom: 54px;
+    max-width: 290px;
   }
 
   .header-content__title {
     font-size: 20px;
-    line-height: 23px;
-    margin-bottom: 23px;
+    line-height: 23.44px;
+    margin-bottom: 26px;
   }
 
   .header-content__text {
+    display: none;
+  }
+
+  .header-content__text-320px {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
     font-size: 14px;
     line-height: 20px;
+    max-height: 77px;
   }
 
   .header-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    height: 38px;
+    width: 150px;
 }
 }
