@@ -15,7 +15,7 @@
   min-height: 732px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 85%  ;
+  background-size: 85%;
   position: relative;
 
 }
@@ -47,13 +47,10 @@
 
 .header-top__text {
   text-align: center;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; */
-  padding-top: 3px;
   min-width: 208px;
   max-height: 53px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header-top__phone-button {
@@ -128,11 +125,14 @@
 @media (max-width: 1024px) {
 
   .header {
-    min-height: 600px;
+    min-height: 528px;
+    background-size: 100%;
   }
   
   .header-top {
     margin-bottom: 70px;
+    justify-content: flex-start;
+    gap: 717px;
   }
 
   .header-top__logo {
@@ -140,30 +140,46 @@
     height: 60px;
   }
 
+  .header-top__text {
+    max-width: 186px;
+    min-height: 49px;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
   .header-top__text-top {
     font-size: 21px;
-    line-height: 25px;
-    margin-bottom: 4px;
+    line-height: 24.61px;
+    max-width: 186px;
+    
+  }
+
+  .header-top__text-bottom {
+    padding: 0 40px;
+    height: 18px;
   }
 
   .header-top__link {
     font-size: 13px;
-    line-height: 15px;
+    line-height: 15.23px;
   }
 
   .header-content {
-    margin-bottom: 60px;
+    margin-bottom: 57px;
   }
 
   .header-content__title {
     font-size: 40px;
     line-height: 47px;
     margin-bottom: 27px;
+    max-width: 780px;
   }  
 
   .header-content__text {
     font-size: 18px;
     line-height: 25px;
+    max-width: 754px;
   }
 
 }
