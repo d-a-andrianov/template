@@ -145,6 +145,7 @@
     min-height: 49px;
     margin: 0 auto;
     text-align: center;
+    align-items: baseline;
 
   }
 
