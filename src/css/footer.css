@@ -121,12 +121,15 @@
   .footer-right__text-top {
     font-size: 21px;
     line-height: 24.61px;
-    max-width: 186px;
-    padding-left: 10px;
+    /* max-width: 186px; */
+    margin-bottom: 4px;
+    padding-left: 21px;
+
   }
 
   .footer-right__text-bottom {
-    padding: 0 50px;
+    margin: 0 auto;
+    padding-left: 23px;
     height: 18px;
   }
 
