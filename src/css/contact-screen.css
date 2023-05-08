@@ -15,7 +15,7 @@
   min-height: 621px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 85%;
+  background-size: 100%;
   position: relative;
   padding: 70px 0;
   z-index: 0;
@@ -133,6 +133,7 @@
   .contact-screen {
     min-height: 558px;
     padding-bottom: 56px;
+    background-size: 100%;
   }
 
   .contact-screen__title {

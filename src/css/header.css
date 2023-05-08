@@ -15,7 +15,7 @@
   min-height: 732px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 85%;
+  background-size: 100%;
   position: relative;
 
 }
@@ -65,7 +65,6 @@
 .header-top__text-top {
   font-size: 23.85px;
   line-height: 28px;
-  line-height: 100%;
   margin-bottom: 6px;
 }
 

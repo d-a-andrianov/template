@@ -150,11 +150,28 @@
     margin-bottom: 23px;
   }
 
+  .advantages__about-subtitle::before {
+    top: 12px;
+    left: -62px;
+    width: 40px;
+    height: 2px;
+  }
+
+  .advantages__about-subtitle::after {
+    top: 12px;
+    left: 71px;
+    width: 39px;
+    height: 2px;
+  }
+
+  .advantages__about {
+    margin-bottom: 32px;
+  }
+
   .advantages__about-subtitle {
     font-weight: 500;
     font-size: 20px;
-    line-height: 23px;
-    margin-bottom: 33px;
+    line-height: 23.44px;
   }
 
   .advantages__text {
