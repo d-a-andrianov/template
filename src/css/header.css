@@ -15,7 +15,7 @@
   min-height: 732px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 85%  ;
   position: relative;
 
 }
@@ -38,6 +38,7 @@
 .header-top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 120px;
 }
 
@@ -50,6 +51,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center; */
+  padding-top: 3px;
   min-width: 208px;
   max-height: 53px;
 }
@@ -67,7 +69,7 @@
   font-size: 23.85px;
   line-height: 28px;
   line-height: 100%;
-  margin-bottom: 3px;
+  margin-bottom: 6px;
 }
 
 .header-top__text-bottom {
@@ -82,7 +84,7 @@
 }
 
 .header-content {
-  margin-bottom: 90px;
+  margin-bottom: 92px;
 }
 
 .header-content__title {
@@ -92,7 +94,8 @@
   line-height: 61px;
   text-align: center;
   color: var(--light-grey-color-h1);
-  margin-bottom: 35px;
+  margin-bottom: 32px;
+  padding-left: 0px;
 }
 
 .header-content__text {

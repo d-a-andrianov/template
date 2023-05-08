@@ -31,9 +31,9 @@
   margin: 0 auto;
   display: inline;
   position: absolute;
-  top: 10px;
-  left: -63px;
-  width: 40px;
+  top: 13px;
+  left: -68px;
+  width: 44px;
   height: 2px;
   align-items: center;
   background-color: var(--heavy-grey-color);
@@ -45,9 +45,9 @@
   margin: 0 auto;
   display: inline;
   position: absolute;
-  top: 10px;
-  left: 73px;
-  width: 40px;
+  top: 13px;
+  left: 78px;
+  width: 44px;
   height: 2px;
   align-items: center;
   background-color: var(--heavy-grey-color);
@@ -60,8 +60,8 @@
   display: inline-block;
   text-align: center;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 22px;
+  line-height: 25.78px;
   color: var(--heavy-grey-color);
 }
 
@@ -72,29 +72,35 @@
   font-size: 18px;
   line-height: 25px;
   color: var(--heavy-grey-color);
-  margin-bottom: 50px;
+  margin-bottom: 59px;
 }
 
 
 /* кружки с цифрами */
 .advantages__list-top {
   /* margin: 0 auto; */
+  /* padding-left: 5px; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 45px;
+  gap: 49px;
 }
+
+/* .advantages__list-top:nth-child(2n) {
+  margin-right: 2px;
+} */
 
 .advantages__item-wrapper {
   display: flex;
   flex-direction: column;
   max-width: 196px;
   min-height: 195px;
-  gap: 16px;
+  gap: 14px;
 }
 
 
 .advantages__item-top {
+  padding: 7px 0 0 1px;
   display: flex;
   align-items: center;
   justify-content: center;
