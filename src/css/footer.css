@@ -98,8 +98,8 @@
   }
 
   .footer__wrapper {
-    justify-content: flex-start;
-    gap: 194px;
+    /* justify-content: flex-start; */
+
   }
 
   .footer-left__logo {
