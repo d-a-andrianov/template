@@ -170,19 +170,18 @@
     align-items: center;
   }
 
+  .footer-right {
+    display: flex;
+    justify-content: center;
+    min-width: 34px;
+  }
+
   .footer-right__text-top {
     display: none;
   }
 
   .footer-right__text-bottom {
     display: none;
-  }
-
-  .footer-right {
-    display: flex;
-    justify-content: flex-end;
-    min-width: 24px;
-    
   }
 
   .footer__phone-button {
